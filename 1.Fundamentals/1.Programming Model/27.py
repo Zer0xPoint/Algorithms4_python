@@ -33,9 +33,9 @@ def main():
     p = 0.25
 
     for row in range(N + 1):
-        matrix.append([])
-        for column in range(k + 1):
-            matrix[row].append(-1.0)
+        matrix.append([-1.0] * (k + 1))
+        # for column in range(k + 1):
+        #     matrix[row].append(-1.0)
 
     print(binomial(N, k, p))
     print(count)

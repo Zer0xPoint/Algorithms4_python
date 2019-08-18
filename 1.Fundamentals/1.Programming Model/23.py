@@ -11,17 +11,17 @@ def rank(key, a, lo, hi):
 
 
 def main():
-    data_w_name = 'tinyW.txt'
-    data_t_name = 'tinyT.txt'
+    data_w_dir = 'tinyW.txt'
+    data_t_dir = 'tinyT.txt'
     data_w = []
-    with open(data_w_name, 'r') as f:
+    with open(data_w_dir, 'r') as f:
         for line in f:
             line = int(line.strip())
             data_w.append(line)
     data_w.sort()
     is_exist = []
     not_exist = []
-    with open(data_t_name, 'r') as f:
+    with open(data_t_dir, 'r') as f:
         for line in f:
             line = int(line.strip())
             if rank(line, data_w, 0, len(data_w) - 1) != -1:
