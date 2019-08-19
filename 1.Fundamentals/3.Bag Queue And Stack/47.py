@@ -167,7 +167,7 @@ for i in range(5):
     sq.push(i)
     sq1.push(i)
 
-# q.dequeue()
+# p.dequeue()
 # q1.dequeue()
 q = q.catenation(q1)
 s = s.catenation(s1)

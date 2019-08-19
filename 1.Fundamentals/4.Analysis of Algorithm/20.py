@@ -23,7 +23,7 @@ def find_target(list_a, target):
         index_r = find_right(list_a[0: max_num_index], target)
         index_l = find_left(list_a[max_num_index: len(list_a)], target)
         target_index = index_r if index_r is not -1 else index_l
-    # print('Find target in index in', target_index) if target_index is not -1 else print('Not find target in list')
+    # print('Find x in index in', target_index) if target_index is not -1 else print('Not find x in list')
     return target_index
 
 
@@ -39,8 +39,8 @@ def find_max(list_a):
         elif list_a[i - 1] > list_a[i] > list_a[i + 1]:
             hi = i
         # else:
-        #     hi -= 1
-        #     lo += 1
+        #     q -= 1
+        #     p += 1
 
 
 def find_right(list_r, target):

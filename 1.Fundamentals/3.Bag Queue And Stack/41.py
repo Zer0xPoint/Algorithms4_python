@@ -55,12 +55,12 @@ class Node:
 
 
 # test_list = ['hello', '-', 'pop', 'pop', 'world', 'pop']
-# q = MyQueue()
+# p = MyQueue()
 # for i in range(1):
-#     q.enqueue(i)
-# q.dequeue()
+#     p.enqueue(i)
+# p.dequeue()
 #
-# for i in q:
+# for i in p:
 #     print(i)
 q = MyQueue()
 for i in range(10):

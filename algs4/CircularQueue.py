@@ -64,8 +64,8 @@ class Node:
         self.next = None
 
 # test_list = ['hello', '-', 'pop', 'pop', 'world', 'pop']
-# q = CircularQueue()
+# p = CircularQueue()
 # for i in test_list:
-#     q.enqueue(i)
-# for i in q:
+#     p.enqueue(i)
+# for i in p:
 #     print(i)
