@@ -71,4 +71,5 @@ def find_left(list_l, target):
     return -1
 
 
-print(find_target(list_a, 7))
+target = 7
+print(find_target(list_a, target))
