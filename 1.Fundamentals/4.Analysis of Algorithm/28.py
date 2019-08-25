@@ -20,6 +20,9 @@ class Stack_by_Queue:
         self.__N += 1
 
     def pop(self):
+        if self.is_empty():
+            print('Queue is Empty, Nothing to pop')
+            return -1
         for i in range(self.__N - 1):
             self.__queue.enqueue(self.__queue.dequeue())
         self.__queue.dequeue()
@@ -34,5 +37,8 @@ sq.push(3)
 sq.push(4)
 sq.pop()
 sq.push(5)
+sq.pop()
+sq.pop()
+sq.pop()
 sq.pop()
 sq.pop()
